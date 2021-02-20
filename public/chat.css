@@ -1,0 +1,38 @@
+body {
+    background-color: lightgrey;
+    font-family: "Kanit", sans-serif;
+    display: flex;
+}
+
+#join-room {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 200px auto;
+    width: 50vw;
+    /* height: 50vw; */
+    display: flex;
+    flex-direction: column;
+}
+
+#join-room h1 {
+    color: green;
+    
+}
+
+button {
+    background-color: green;
+    padding: 10px 20px;
+    border-radius: 3px;
+    color: white;
+}
+
+#chat {
+    height: 70vh;
+    width: 100vw;
+    background-color: white;
+}
+
+.hidden {
+    display: none !important;
+}
