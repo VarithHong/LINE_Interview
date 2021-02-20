@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Title -->
+    <title>LINE Chat Stream</title>
+
+    <!-- Icon -->
+    <link rel="shortcut icon" href="">
+
+    <!--- Google Fonts - Kanit -------->
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="chat.css">
+
+    <!-- Jquery -->
+    <!-- <script src="jquery.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Javascript -->
+    <script src="chat.js"></script>
+
+    
+</head>
+<body>
+    <section id="join-room">
+        <h1>Welcome to Chat Room</h1>
+        <label for="username">User: </label>
+        <input type="text" id="username"><br>
+        <label for="server">Chat Server: </label>
+        <input type="url" id="server"><br>
+        <button id="submit">Enter Room</button>
+    </section>
+
+    <section id="chat-room" class="hidden">
+        <div id="chat"></div>
+        <label for="message">Message: </label>
+        <input type="text" id="message">
+        <button id="send">Send</button>
+    </section>
+</body>
+
+</html>
